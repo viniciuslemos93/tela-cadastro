@@ -14,7 +14,14 @@ class Usuario {
         document.getElementById("btnCadastrar").addEventListener("click", usuario.salvar)
         
     }
-    
+    salvar() {
+        let usuario = this.lerDados()
+        if (this.validarCampos(usuario) == true) {
+                alert ("OOKSS")
+            }else {
+                alert("Campos Vazios")
+            }
+    }
     //Função para capturar todos os inputs do formulário.
     lerDados() {
         let usuario = {}
@@ -55,16 +62,9 @@ class Usuario {
             return false
         }
         return true
-    }
-    
-    salvar() {
-        let usuario = this.lerDados()
-        if (this.validarCampos(usuario) == true) {
-                alert ('OOKSS')
-            }else {
-                alert('Campos Vazios')
-            }
-    }
+    }    
+
 }
+
 var usuario = new Usuario()
 window.addEventListener("load", usuario.addEventos)
