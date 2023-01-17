@@ -70,3 +70,10 @@ input {
 .flex .lineInput {
     padding: 3px;
 }
+.sucesso {
+    margin: auto;
+    
+}
+.modal {
+    width: 100%;
+}

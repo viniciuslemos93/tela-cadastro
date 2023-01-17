@@ -9,17 +9,17 @@ class Usuario {
     logradouro;
     numero;
         
-    //Função com a lista de eventos a serem executadas.
+    /*Função com a lista de eventos a serem executadas.
     addEventos () {
         document.getElementById("btnCadastrar").addEventListener("click", usuario.salvar)
         
-    }
+    }*/
     salvar() {
         let usuario = this.lerDados()
         if (this.validarCampos(usuario) == true) {
                 alert ("OOKSS")
             }else {
-                alert("Campos Vazios")
+                alert("Campos Vaziosssss")
             }
     }
     //Função para capturar todos os inputs do formulário.

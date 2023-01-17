@@ -53,12 +53,15 @@
     <title>Usuário | Cadastro</title>
 </head>
 <body>
-    <main class="container">
-        
+    <main class="container">        
         <div class="topo">
         <h1>Cadastro de usuário</h1>
             <p>Utilize este cadastro para fazer parte do maior site de trade de Bitcoin do mundo</p>
         </div>
+        
+            <dialog class="sucesso" open>
+                Olá Mundo
+            </dialog>
         
             <div class="lineInput">
                 <label>Nome completo <span class="asterisco">*</span></label>
@@ -108,7 +111,7 @@
                 </div>
                 <!-- Até aqui deve ficar lado a lado-->
             
-            <button id="btnCadastrar">Cadastrar</button>        
+            <button id="btnCadastrar" onclick="usuario.salvar()">Cadastrar</button>        
     </main>
         
 </body>
