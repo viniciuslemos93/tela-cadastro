@@ -9,7 +9,7 @@ Tarefas pendentes:
 
 [ ] Deixar o layout da tela de cadastro Resposiva.
 
-[ ] Implementar máscaras nos inputs de CPF e Telefone.
+[X] Implementar máscaras nos inputs de CPF e Telefone.
 
 [ ] Implementar caixinhas em vermelho (Modal ou snackbar) para printar os erros para o usuário.
 
@@ -17,7 +17,7 @@ Tarefas pendentes:
 
 [ ] Validação dos inputs obrigatórios e também validar a sequência do CPF.
 
-[ ] Implementar para que os inputs (CPF, CEP e Número) aceitem somente números, não poderá aceitar letras.
+[X] Implementar para que os inputs (CPF, CEP e Número) aceitem somente números, não poderá aceitar letras.
 
 [ ] Consumir a API de CEPs para buscar a validação do endereço. API para busca de CEP: https://viacep.com.br/ws/{{CEP}}/json/
 
