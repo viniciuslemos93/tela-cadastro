@@ -35,6 +35,7 @@ body {
 .lineInput {
     display: grid;
     margin: 10px auto;
+    flex-grow: 1;
 }
 input[type=text] {
     margin-top: 5px;
@@ -65,4 +66,7 @@ input {
 .flex {
     display: flex;    
     flex-direction: row;    
+}
+.flex .lineInput {
+    padding: 3px;    
 }
