@@ -24,7 +24,7 @@ Tarefas pendentes:
 [ ] Criar o método para quando receber os dados da API, "autopreencher" os campos de cidade, bairro e logradouro.
 
 <hr>
-<h3> Deploy: 
+<h3> Deploy: https://viniciuslemos93.github.io/tela-cadastro/
 
 </div>
 <h2 align="center">Tecnologias Usadas</h2>
