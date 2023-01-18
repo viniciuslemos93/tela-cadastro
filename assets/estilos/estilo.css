@@ -14,7 +14,7 @@ h1 {
     background-color: white;
     padding: 30px 50px;
     width: 440px;
-    margin: auto;    
+    
 }
 p, label {
     color: #999999;
@@ -29,9 +29,9 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 .lineInput {
     display: flex;
@@ -72,6 +72,11 @@ input {
 }
 .flex .lineInput {
     padding: 3px;
+}
+.cokies {
+    width: 80%;
+    margin: 40px 0;
+    color: white;
 }
 .card {
     width: 90%;
