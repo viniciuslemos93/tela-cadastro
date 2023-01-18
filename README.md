@@ -15,7 +15,9 @@ Tarefas pendentes:
 
 [ ] Ao Cadastrar, usar uma caixa (Modal) para exibir o sucesso do cadastro e ao clicar em "ok" a pessoa será redirecionada para a página de exibição.
 
-[X] Validação dos inputs obrigatórios e também validar a sequência do CPF.
+[X] Validação dos inputs obrigatórios. 
+
+[ ] Validar a sequência do CPF.
 
 [X] Implementar para que os inputs (CPF, CEP e Número) aceitem somente números, não poderá aceitar letras.
 
