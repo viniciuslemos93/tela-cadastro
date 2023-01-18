@@ -29,6 +29,13 @@ Tarefas pendentes:
 <h3> Deploy: https://viniciuslemos93.github.io/tela-cadastro/
 
 </div>
+
+<h1 align="center">Gif do Resultado</h1>
+<div align="center">
+<img align="center" alt="Design do site" width="500" src="funcionalidade-consulta-cep.gif">
+
+</div>
+
 <h2 align="center">Tecnologias Usadas</h2>
 <div align="center">
      <div style="display: inline_block margin-left:auto margin-rigth:auto"><br>
