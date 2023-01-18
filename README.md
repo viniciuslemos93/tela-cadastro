@@ -19,9 +19,9 @@ Tarefas pendentes:
 
 [X] Implementar para que os inputs (CPF, CEP e Número) aceitem somente números, não poderá aceitar letras.
 
-[ ] Consumir a API de CEPs para buscar a validação do endereço. API para busca de CEP: https://viacep.com.br/ws/{{CEP}}/json/
+[X] Consumir a API de CEPs para buscar a validação do endereço. API para busca de CEP: https://viacep.com.br/ws/{{CEP}}/json/
 
-[ ] Criar o método para quando receber os dados da API, "autopreencher" os campos de cidade, bairro e logradouro.
+[X] Criar o método para quando receber os dados da API, "autopreencher" os campos de cidade, bairro e logradouro.
 
 <hr>
 <h3> Deploy: https://viniciuslemos93.github.io/tela-cadastro/
