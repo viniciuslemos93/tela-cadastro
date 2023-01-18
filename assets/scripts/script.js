@@ -17,9 +17,10 @@ class Usuario {
     salvar() {
         let usuario = this.lerDados()
         if (this.validarCampos(usuario) == true) {
-                alert ("OOKSS")
+                //Acessar a página de login
             }else {
-                alert("Campos Vaziosssss")
+                //Mostrar os campos que precisa preencher
+                
             }
     }
     //Função para capturar todos os inputs do formulário.
@@ -62,9 +63,8 @@ class Usuario {
             return false
         }
         return true
-    }    
-
+    }
 }
 
 var usuario = new Usuario()
-window.addEventListener("load", usuario.addEventos)
+//window.addEventListener("load", usuario.addEventos)

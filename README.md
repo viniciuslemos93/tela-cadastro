@@ -7,7 +7,7 @@ Tarefas pendentes:
 
 [X] Criar o layout da tela de cadastro.
 
-[ ] Deixar o layout da tela de cadastro Resposiva.
+[X] Deixar o layout da tela de cadastro Resposiva.
 
 [X] Implementar máscaras nos inputs de CPF e Telefone.
 
