@@ -70,10 +70,21 @@ input {
 .flex .lineInput {
     padding: 3px;
 }
-.sucesso {
-    margin: auto;
-    
+.card {
+    width: 90%;
+    background-color: #07a5b1;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px auto;
 }
-.modal {
-    width: 100%;
+.valor-bitcoin{
+    margin-top: 15px;        
+}
+.valor-bitcoin p {
+    color: white;
+}
+.bitcoin {
+    width: 120%;
+    height: 200px;
+    background-color: #5d6070;
 }

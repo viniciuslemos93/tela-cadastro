@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: white;
+    
+    width: 380px;
+    margin: auto;    
+}
+html, body {
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+body {    
+    background-color: #5d6070;
+    font-family: Calibri, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+img {    
+    height: 180px;
+    width: 100%;
+    
+}
+.sac {
+    width: 75px;    
+    height: 65px;
+    background-color: white;
+    border-radius: 25px 0 0px 10px;
+    padding: 5px;
+
+}
+.conteudo {
+    margin: 30px;    
+    color: #999999;
+}
+.card {    
+    background-color: #07a5b1;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px 30px;
+    height: 100px;
+}
+.valor-bitcoin{
+    margin-top: 15px;        
+}
+.valor-bitcoin p {
+    color: white;
+}
