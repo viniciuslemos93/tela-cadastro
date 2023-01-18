@@ -12,17 +12,16 @@ class Usuario {
     //Função com a lista de eventos a serem executadas.
     addEventos () {
         document.getElementById("btnCadastrar").addEventListener("click", usuario.salvar)
-        document.getElementById('cep').addEventListener('focusout',usuario.consultarCep);
-        
+        document.getElementById('cep').addEventListener('focusout',usuario.consultarCep);        
     }
     salvar() {
         let cadastro = this.lerDados()
         if (this.validarCampos(cadastro) == true) {
-
+                window.location.href = "../tela-cadastro/assets/paginas/login.html";
             }else {
                 //Mostrar os campos que precisa preencher                
             }
-    }
+    }    
     //Função para capturar todos os inputs do formulário.
     lerDados() {
         let dadosUsuario = {}            
