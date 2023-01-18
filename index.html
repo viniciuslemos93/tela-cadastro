@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/estilos/estilo.css">
-    <script src="./assets/scripts/script.js"></script>
-    <script src="assets/scripts/pesquisarCep.js"></script>
+    <link rel="stylesheet" href="./assets/estilos/estilo.css">    
 
     <!--Importando scripts para máscara dos inputs-->
 		<script type="text/javascript" src="assets/scripts/jquery-3.3.1.min.js"></script>
@@ -84,7 +82,9 @@
                     <div class="lineInput">
                         <label for="cep">CEP <span class="asterisco">*</span></label>
                         <input type="text" id="cep">
+                        <div id="hidden-show" style="display: none;"></div>                        
                     </div>
+                    <br><label id="resposta"></label>
     
                     <div class="lineInput">
                         <label for="cidade">Cidade</label>
@@ -109,7 +109,7 @@
                     </div>
             
             <button id="btnCadastrar" onclick="usuario.salvar()">Cadastrar</button>        
-    </main>
-    <script src="assets/scripts/pesquisarCep.js"></script>        
+    </main>    
 </body>
+<script src="assets/scripts/pesquisarCep.js"></script>
 </html>
