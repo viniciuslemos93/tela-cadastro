@@ -32,7 +32,7 @@ Tarefas pendentes:
 
 <h1 align="center">Gif do Resultado</h1>
 <div align="center">
-<img align="center" alt="Design do site" width="500" src="funcionalidade-consulta-cep.gif">
+<img align="center" alt="Design do site" width="500" src="gif-projeto.gif">
 
 </div>
 
