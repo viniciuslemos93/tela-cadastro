@@ -1,7 +1,5 @@
 <h1 align="center">Tela de Cadastro - Consumindo API de CEPs</h1>
 
-![GitHub](https://img.shields.io/github/license/viniciuslemos93/tela-cadastro)
-
 **<p align="center">Sumário</p>**
 <p align="center">
 <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
