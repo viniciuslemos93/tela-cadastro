@@ -38,7 +38,7 @@
 
 ### Print da Tela de Cadastro
 
-<img align="center" alt="Design do site" width="500" src="tela-cadastro.PNG">
+<img align="center" alt="Design do site" width="500" src="tela-cadastro.png">
 </div>
 
 ### Deploy: https://viniciuslemos93.github.io/tela-cadastro/
